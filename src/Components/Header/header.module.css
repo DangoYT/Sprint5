@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.header__image {
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+
+.header__title {
+    color: var(--White);
+}
+
+.header__description {
+    width: 500px;
+}
+
+.header__text {
+    margin: 0px;
+    color: var(--White);
+}
