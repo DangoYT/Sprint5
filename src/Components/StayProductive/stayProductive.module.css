@@ -1,0 +1,20 @@
+.stayProductive {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  color: var(--White);
+}
+.stayProductive__img {
+}
+.stayProductive__text {
+  width: 500px;
+}
+.stayProductive__title {
+  font-size: 3em;
+}
+.stayProductive__paragraph {
+}
+.stayProductive__link {
+  color: #64ded8;
+}
