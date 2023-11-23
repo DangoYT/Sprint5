@@ -1,18 +1,14 @@
 import React from 'react'
-
+import estilos from './nav.module.css'
 export default function Nav() {
     return (
-        <nav>
-            <img class="logo" src="public/icons/logo.svg" alt="" />
-            <img onClick={() => setCount(true)} className='menuMobile' src="public/icons/bx-menu-alt-right.svg" alt="" />
-            <ul class="navBar">
-                <li><a href="">Features</a></li>
-                <li><a href="">Team</a></li>
-                <li><a href="">Sign In</a></li>
+        <div className={estilos.header}>
+            <img src="../../../public/icons/logo.svg" alt="" />
+            <ul className={estilos.nav}>
+                <li className={estilos.nav__item}><a className={estilos.nav__link} href="">Features</a></li>
+                <li className={estilos.nav__item}><a className={estilos.nav__link} href="">Team</a></li>
+                <li className={estilos.nav__item}><a className={estilos.nav__link} href="">Sign In</a></li>
             </ul>
-            {count === true && (
-                <Modal />
-            )}
-        </nav>
+        </div>
     )
 }
