@@ -9,3 +9,13 @@
   cursor: pointer;
   color: var(--White);
 }
+
+.button2 {
+  background-color: hsl(176, 68%, 64%);
+  height: 55px;
+  border-radius: 50px;
+  width: 175px;
+  margin-left: 50px;
+  border: none;
+  cursor: pointer;
+}

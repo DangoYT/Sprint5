@@ -12,7 +12,7 @@ export default function Header() {
                     <p className={estilos.header__text}>Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
                 </div>
             </div>
-            <Button nombre="Get Started"/>
+            <Button estilo="button" nombre="Get Started"/>
         </div>
     )
 }
