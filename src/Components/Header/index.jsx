@@ -1,5 +1,6 @@
 import React from 'react'
 import estilos from './header.module.css'
+import Button from '../Buttons/Button'
 export default function Header() {
     return (
         <div className={estilos.header}>
@@ -11,7 +12,7 @@ export default function Header() {
                     <p className={estilos.header__text}>Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
                 </div>
             </div>
-            {/* <Button nombre="Get Started" /> */}
+            <Button nombre="Get Started"/>
         </div>
     )
 }
