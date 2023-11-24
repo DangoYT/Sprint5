@@ -3,7 +3,7 @@
   grid-template-columns: 420px 420px;
   justify-content: center;
   gap: 100px;
-  margin: 200px 0px 200px 0px;
+  background-color: hsl(218, 28%, 13%);
 }
 
 .caracteristicasDetalle {

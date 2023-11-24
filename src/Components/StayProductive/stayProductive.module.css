@@ -4,6 +4,7 @@
   justify-content: center;
   gap: 150px;
   color: var(--White);
+  background-color: hsl(218, 28%, 13%);
 }
 .stayProductive__img {
 }
