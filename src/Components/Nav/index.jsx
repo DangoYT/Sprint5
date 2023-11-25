@@ -5,7 +5,7 @@ export default function Nav() {
         <div className={estilos.header}>
             <img src="../../../public/icons/logo.svg" alt="" />
             <ul className={estilos.nav}>
-                <li className={estilos.nav__item}><a className={estilos.nav__link} href="">Features</a></li>
+                <li className={estilos.nav__item}><a className={estilos.nav__link} href="#caracteristicascomp">Features</a></li>
                 <li className={estilos.nav__item}><a className={estilos.nav__link} href="">Team</a></li>
                 <li className={estilos.nav__item}><a className={estilos.nav__link} href="">Sign In</a></li>
             </ul>
