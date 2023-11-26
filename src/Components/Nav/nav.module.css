@@ -24,3 +24,19 @@
 .nav__link:hover {
   text-decoration: underline;
 }
+@media screen and (max-width: 375px) {
+  .header {
+    display: flex;
+    padding: 0px;
+    justify-content: left;
+    margin-top: 10px;
+    gap: 10px;
+  }
+  .nav{
+    gap: 10px;
+    padding: 0px;
+  }
+  .header_img {
+    transform: scale(0.8);
+  }
+}

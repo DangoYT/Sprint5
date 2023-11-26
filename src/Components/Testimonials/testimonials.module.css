@@ -52,3 +52,12 @@
   border-radius: 50%;
   grid-area: b;
 }
+@media screen and (max-width: 375px) {
+  .testimonial {
+    display: flex;
+    padding: 100px;
+  }
+  .testimonialsContainer {
+    flex-direction: column;
+  }
+}

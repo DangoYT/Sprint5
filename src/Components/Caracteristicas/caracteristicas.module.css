@@ -10,3 +10,10 @@
   text-align: center;
   color: var(--White);
 }
+
+@media screen and (max-width: 375px) {
+  .caracteristicas {
+    display: flex;
+    flex-direction: column;
+  }
+}

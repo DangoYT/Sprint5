@@ -46,3 +46,9 @@ body {
   cursor: pointer;
   color: var(--White);
 }
+@media screen and (max-width: 375px) {
+  .button2 {
+    width: 275px;
+    margin: 0 auto;
+  }
+}

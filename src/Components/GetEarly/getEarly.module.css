@@ -1,7 +1,11 @@
 .getEarly {
   display: flex;
   justify-content: center;
-  background: linear-gradient(to bottom, hsl(218, 28%, 13%) 50%, hsl(216, 53%, 9%) 50%);
+  background: linear-gradient(
+    to bottom,
+    hsl(218, 28%, 13%) 50%,
+    hsl(216, 53%, 9%) 50%
+  );
 }
 .getEarly__content {
   display: flex;
@@ -10,7 +14,9 @@
   justify-content: center;
   background-color: hsl(217, 28%, 15%);
   border-radius: 10px;
-  box-shadow: 10px black;
+  -webkit-box-shadow: 11px 13px 50px 16px hsl(218, 28%, 13%)s;
+  -moz-box-shadow: 11px 13px 50px 16px hsl(218, 28%, 13%);
+  box-shadow: 11px 13px 50px 16px hsl(218, 28%, 13%);
   padding: 0px 100px 50px 100px;
   color: var(--White);
   position: relative;
@@ -41,4 +47,31 @@
   color: hsl(0, 100%, 63%);
   top: 295px;
   left: 150px;
+}
+
+@media screen and (max-width: 375px) {
+  .getEarly {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .getEarly__content {
+    padding: 0px;
+    width: 350px;
+  }
+  .getEarly__description {
+    width: 340px;
+  }
+  .getEarly__input {
+    width: 250px;
+  }
+  .getEarly__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .getEarly__error {
+    position: static;
+    color: hsl(0, 100%, 63%);
+  }
 }

@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-image: url('../../../public/icons/bg-curvy-desktop.svg');
+  background-image: url("../../../public/icons/bg-curvy-desktop.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   padding-bottom: 180px;
@@ -21,14 +21,35 @@
 }
 
 .header__title {
-    color: var(--White);
+  color: var(--White);
 }
 
 .header__description {
-    width: 500px;
+  width: 500px;
 }
 
 .header__text {
-    margin: 0px;
-    color: var(--White);
+  margin: 0px;
+  color: var(--White);
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    padding: 0px;
+    background-image: url(../../../public/icons/bg-curvy-mobile.svg);
+    align-items: normal;
+    justify-content: center;
+  }
+  .header__content {
+    width: 375px;
+  }
+  .header__title {
+    width: 350px;
+  }
+  .header__description {
+    width: 320px;
+  }
+  button {
+    margin: 0 auto;
+  }
 }

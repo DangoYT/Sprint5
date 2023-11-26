@@ -3,7 +3,7 @@ import estilos from './nav.module.css'
 export default function Nav() {
     return (
         <div className={estilos.header}>
-            <img src="../../../public/icons/logo.svg" alt="" />
+            <img className={estilos.header_img} src="../../../public/icons/logo.svg" alt="" />
             <ul className={estilos.nav}>
                 <li className={estilos.nav__item}><a className={estilos.nav__link} href="#caracteristicascomp">Features</a></li>
                 <li className={estilos.nav__item}><a className={estilos.nav__link} href="">Team</a></li>

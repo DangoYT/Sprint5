@@ -19,3 +19,12 @@
 .stayProductive__link {
   color: #64ded8;
 }
+@media screen and (max-width: 375px) {
+  .stayProductive {
+    align-items: normal;
+    flex-direction: column;
+  }
+  .stayProductive__text {
+    width: 360px;
+  }
+}
