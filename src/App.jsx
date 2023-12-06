@@ -4,9 +4,9 @@ import Nav from './Components/Nav'
 import Header from './Components/Header'
 import Caracteristicas from './Components/Caracteristicas'
 import StayProductive from './Components/StayProductive'
-import Testimonials from './Components/Testimonials/Testimonials'
-import Footer from './Components/Footer/Footer'
-import GetEarly from './Components/GetEarly/GetEarly'
+import Testimonials from './Components/Testimonials'
+import Footer from './Components/Footer'
+import GetEarly from './Components/GetEarly'
 
 function App() {
 
